@@ -1,7 +1,7 @@
 import React from 'react'
 import imagen5e from '../imagenes/imagen5.jpg'
 
-export const Imagen5 = () => {
+ const Imagen5 = () => {
   return (
     <div>
 <img src={imagen5e} alt="" />
