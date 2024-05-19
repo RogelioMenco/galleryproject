@@ -1,5 +1,5 @@
 import React from 'react'
-import imagen8h from '../imagenes/imagen8.jpg'
+import imagen8h from '../imagenes/imagen8.jpeg'
 
  const Imagen8 = () => {
   return (

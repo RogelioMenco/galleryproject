@@ -1,90 +1,150 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import Imagen1 from './Imagen1'
-import Imagen2 from './Imagen2'
-import Imagen3 from './Imagen3'
-import Imagen4 from './Imagen4'
-import Imagen5 from './Imagen5'
-import Imagen6 from './Imagen6'
-import Imagen7 from './Imagen7'
-import Imagen8 from './Imagen8'
-import Imagen9 from './Imagen9'
-import Imagen10 from './Imagen10'
+import React from "react";
+import { Link } from "react-router-dom";
+import Imagen1 from "./Imagen1";
+import Imagen2 from "./Imagen2";
+import Imagen3 from "./Imagen3";
+import Imagen4 from "./Imagen4";
+import Imagen5 from "./Imagen5";
+import Imagen6 from "./Imagen6";
+import Imagen7 from "./Imagen7";
+import Imagen8 from "./Imagen8";
+import Imagen9 from "./Imagen9";
+import Imagen10 from "./Imagen10";
 
 const Navigation = () => {
   return (
-    <div>
-      <Link to="/Imagen1"> 
-      <figure>
-        <Imagen1/>
-        <figcaption>Imagen1</figcaption>
-      </figure>
-      </Link>
+    <div className="bg-gray-100 min-h-screen">
+      {/* Hero Section */}
+      <div className="relative bg-cover bg-center h-96" style={{ backgroundImage: `url('/path-to-your-banner-image.jpg')` }}>
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
+          <h1 className="text-6xl font-bold drop-shadow-lg">Mi querido paisaje sucreño</h1>
+          <p className="mt-4 text-xl drop-shadow-lg">Explora los lugares más hermosos de Sucre</p>
+        </div>
+      </div>
 
-      <Link to="/Imagen2"> 
-      <figure>
-        <Imagen2/>
-        <figcaption>Imagen2</figcaption>
-      </figure>
-      </Link> 
+      {/* Main Content */}
+      <div className="container mx-auto mt-10 p-6">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-800">Descubre los encantos de Sucre</h2>
+          <p className="mt-4 text-lg text-gray-600">Una selección de los mejores paisajes y lugares encantadores para visitar.</p>
+        </div>
 
-      <Link to="/Imagen3"> 
-      <figure>
-        <Imagen3/>
-        <figcaption>Imagen3</figcaption>
-      </figure>
-      </Link> 
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+          <Link to="/Imagen1" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen1 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen1
+              </figcaption>
+            </figure>
+          </Link>
 
-      <Link to="/Imagen4"> 
-      <figure>
-        <Imagen4/>
-        <figcaption>Imagen4</figcaption>
-      </figure>
-      </Link>
-      
-      <Link to="/Imagen5"> 
-      <figure>
-        <Imagen5/>
-        <figcaption>Imagen5</figcaption>
-      </figure>
-      </Link>
+          <Link to="/Imagen2" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen2 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen2
+              </figcaption>
+            </figure>
+          </Link>
 
-      <Link to="/Imagen6"> 
-      <figure>
-        <Imagen6/>
-        <figcaption>Imagen6</figcaption>
-      </figure>
-      </Link>
+          <Link to="/Imagen3" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen3 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen3
+              </figcaption>
+            </figure>
+          </Link>
 
-      <Link to="/Imagen7"> 
-      <figure>
-        <Imagen7/>
-        <figcaption>Imagen7</figcaption>
-      </figure>
-      </Link>
+          <Link to="/Imagen4" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen4 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen4
+              </figcaption>
+            </figure>
+          </Link>
 
-      <Link to="/Imagen8"> 
-      <figure>
-        <Imagen8/>
-        <figcaption>Imagen8</figcaption>
-      </figure>
-      </Link>
+          <Link to="/Imagen5" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen5 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen5
+              </figcaption>
+            </figure>
+          </Link>
 
-      <Link to="/Imagen9"> 
-      <figure>
-        <Imagen9/>
-        <figcaption>Imagen9</figcaption>
-      </figure>
-      </Link>
+          <Link to="/Imagen6" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen6 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen6
+              </figcaption>
+            </figure>
+          </Link>
 
-      <Link to="/Imagen10"> 
-      <figure>
-        <Imagen10/>
-        <figcaption>Imagen10</figcaption>
-      </figure>
-      </Link>
+          <Link to="/Imagen7" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen7 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen7
+              </figcaption>
+            </figure>
+          </Link>
+
+          <Link to="/Imagen8" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen8 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen8
+              </figcaption>
+            </figure>
+          </Link>
+
+          <Link to="/Imagen9" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen9 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen9
+              </figcaption>
+            </figure>
+          </Link>
+
+          <Link to="/Imagen10" className="group">
+            <figure className="transition transform hover:scale-105">
+              <Imagen10 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+              <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
+                Imagen10
+              </figcaption>
+            </figure>
+          </Link>
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="text-gray-600 font-semibold">
+          Por Rogelio Menco Benavides
+          </p>
+        </div>
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white py-8 mt-12">
+        <div className="container mx-auto text-center">
+          <p className="text-sm">&copy; 2024 Pagina Sucreña. Todos los derechos reservados.</p>
+          <div className="mt-4">
+            <a href="https://web.facebook.com/rogelio.mencobenavides" className="mx-2 text-gray-400 hover:text-white transition duration-300 ease-in-out">
+              Facebook
+            </a>
+            <a href="https://github.com/RogelioMenco" className="mx-2 text-gray-400 hover:text-white transition duration-300 ease-in-out">
+              Git Hub
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
-  )
-}
+  );
+};
 
 export default Navigation;
