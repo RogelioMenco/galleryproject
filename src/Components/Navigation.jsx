@@ -32,100 +32,98 @@ const Navigation = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           <Link to="/Imagen1" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen1 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen1 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen1
+                Sucre Sucre
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen2" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen2 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen2 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen2
+                Aves Silvestre
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen3" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen3 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen3 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen3
+                Hermosas Cavañas
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen4" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen4 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen4 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen4
+                Sucre Desde El Cielo
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen5" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen5 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen5 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen5
+                Sus Rios 
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen6" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen6 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen6 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen6
+                Sus Cienagas Hermosas
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen7" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen7 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen7 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen7
+                Costa Maritima Sucreña
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen8" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen8 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen8 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen8
+                Manantial
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen9" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen9 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen9 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen9
+                Su Gente 
               </figcaption>
             </figure>
           </Link>
 
           <Link to="/Imagen10" className="group">
-            <figure className="transition transform hover:scale-105">
-              <Imagen10 className="w-full h-72 object-cover rounded-lg shadow-2xl group-hover:shadow-lg transition duration-300 ease-in-out" />
+            <figure className="overflow-hidden border-4 border-blue-500 bg-gray-50 rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+              <Imagen10 className="w-full h-72 object-cover" />
               <figcaption className="text-center mt-4 font-semibold text-gray-800 group-hover:text-purple-700 transition duration-300 ease-in-out">
-                Imagen10
+                Sabanas Sucreñas
               </figcaption>
             </figure>
           </Link>
         </div>
 
         <div className="text-center mt-12">
-          <p className="text-gray-600 font-semibold">
-          Por Rogelio Menco Benavides
-          </p>
+          <p className="text-gray-600 font-semibold">Por Rogelio Menco Benavides</p>
         </div>
       </div>
 
